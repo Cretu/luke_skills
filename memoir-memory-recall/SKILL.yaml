@@ -1,0 +1,24 @@
+name: memoir-memory-recall
+description: >
+  A skill to elicit and clarify personal memories through structured recall questions,
+  without generating narrative prose. Uses guided questioning to help users挖掘 deeper
+  memories and sensory details for memoir writing purposes.
+license: MIT
+author: Memoir Agent Skills
+version: 1.0.0
+allowed-tools:
+  - text-generation
+  - memory
+examples:
+  - description: Eliciting childhood memory
+    input: "Tell me about your first day of school"
+    output: "Guided questions about sensory details, emotions, and specific moments"
+  - description: Extracting travel memory
+    input: "Describe your first trip abroad"
+    output: "Structured questions about location, companions, and key events"
+tags:
+  - memory
+  - recall
+  - memoir
+  - interview
+  - autobiography

@@ -1,0 +1,25 @@
+{
+  "name": "memoir-agent-skills",
+  "description": "Claude Agent Skills for memoir writing workflow",
+  "skills": [
+    {
+      "name": "memoir-memory-recall",
+      "path": "./memoir-memory-recall",
+      "description": "Elicit personal memories through structured recall questions"
+    },
+    {
+      "name": "memoir-architect-biographer",
+      "path": "./memoir-architect-biographer",
+      "description": "Guide memoir structure, outlines, and content validation"
+    },
+    {
+      "name": "memoir-writing",
+      "path": "./memoir-writing",
+      "description": "Generate restrained memoir-style prose from memories"
+    }
+  ],
+  "workflow": {
+    "description": "Sequential pipeline: Memory Recall → Architecture → Writing",
+    "documentation": "./orchestration.md"
+  }
+}

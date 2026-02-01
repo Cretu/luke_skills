@@ -1,0 +1,22 @@
+name: memoir-writing
+description: >
+  A skill to generate restrained memoir-style prose based on clarified memories
+  and approved structure. Transforms extracted memories into literary prose while
+  maintaining a tone of thoughtful restraint and authenticity.
+license: MIT
+author: Memoir Agent Skills
+version: 1.0.0
+allowed-tools:
+  - text-generation
+examples:
+  - description: Writing a childhood scene
+    input: "Write a scene about learning to ride a bicycle"
+    output: "Literate prose passage capturing the moment with sensory detail"
+  - description: Writing a reflection passage
+    input: "Write about leaving home for the first time"
+    output: "Reflective passage balancing action and emotional insight"
+tags:
+  - writing
+  - memoir
+  - prose
+  - creative-writing

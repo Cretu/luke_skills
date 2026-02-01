@@ -1,0 +1,24 @@
+name: memoir-architect-biographer
+description: >
+  A biographer-style skill that guides memoir structure, creates chapter outlines,
+  and validates content consistency through question-driven interaction. Acts as
+  an editorial consultant to help organize memories into coherent narrative arcs.
+license: MIT
+author: Memoir Agent Skills
+version: 1.0.0
+allowed-tools:
+  - text-generation
+  - memory
+examples:
+  - description: Creating memoir structure "Help
+    input: me organize my life stories into chapters"
+    output: "Proposed chapter structure with themes and timelines"
+  - description: Outlining a chapter
+    input: "Create an outline for a chapter about my career change"
+    output: "Detailed chapter outline with key moments and transitions"
+tags:
+  - structure
+  - outline
+  - biographer
+  - memoir
+  - planning
