@@ -8,6 +8,9 @@ author: Memoir Agent Skills
 version: 1.0.0
 allowed-tools:
   - text-generation
+  - read_file
+  - write_file
+  - list_directory
 examples:
   - description: Writing a childhood scene
     input: "Write a scene about learning to ride a bicycle"

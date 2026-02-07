@@ -9,6 +9,9 @@ version: 1.0.0
 allowed-tools:
   - text-generation
   - memory
+  - read_file
+  - write_file
+  - list_directory
 examples:
   - description: Creating memoir structure "Help
     input: me organize my life stories into chapters"

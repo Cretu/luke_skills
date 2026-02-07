@@ -100,17 +100,17 @@ User Input
     │
     ▼
 ┌───────────────────┐
-│ Memory Recall     │  →  Memory Inventory (JSON/Markdown)
+│ Memory Recall     │  →  memories/[title].md (Markdown)
 └───────────────────┘
     │
     ▼
 ┌───────────────────┐
-│ Architect/Bio     │  →  Chapter Outline (Markdown)
+│ Architect/Bio     │  →  chapter_outline.md (Markdown)
 └───────────────────┘
     │
     ▼
 ┌───────────────────┐
-│ Writing           │  →  Completed Chapters (Markdown)
+│ Writing           │  →  chapters/[title].md (Markdown)
 └───────────────────┘
 ```
 
@@ -118,12 +118,12 @@ User Input
 
 To prevent context window overflow and ensure consistency:
 
-1.  **Atomic Memory Files**: Save the output of `memoir-memory-recall` into separate files per topic/era (e.g., `memories/childhood_home.md`).
-2.  **Selective Context Loading**: When running `memoir-writing`:
-    *   Load the **Chapter Outline** (for global context).
-    *   Load the **Style Sample** (for voice consistency).
-    *   Load **ONLY** the specific memory files relevant to the current chapter.
-    *   *Do not* load the entire memory inventory.
+1.  **Atomic Memory Files**: `memoir-memory-recall` saves output into separate files in `memories/`.
+2.  **Style Calibration**: `memoir-writing` refers to `memories/style_guide.md` for voice consistency.
+3.  **Selective Context Loading**: When running `memoir-writing`:
+    *   Load the **`chapter_outline.md`** (for global context).
+    *   Load the **`memories/style_guide.md`** (for tone).
+    *   Load **ONLY** the specific `memories/*.md` files relevant to the current chapter.
 
 ## Execution Modes
 
